@@ -20,3 +20,10 @@ I passed in just "/", but it didnt work for me. all the redirects would kill my 
 
 
 # Extra credit: Link your Heroku deployed app
+
+
+
+
+personal repo for this project: sorry for terrible UI. I had problems with the redirect_to :/
+
+https://github.com/rails-decal/fa19-proj1-winniews
