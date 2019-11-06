@@ -1,3 +1,19 @@
 <h3>Trainer</h3>
 <p>Name: <%= @trainer.name if @trainer.name %></p>
 <p>Email: <%= @trainer.email if @trainer.email %></p>
+
+
+<% @trainer.pokemons.each do |pokemon| %>
+	<!-- In between these two ruby tags, put your code for displaying a city! -->
+	<% if not pokemon.nil? %>
+	<% if pokemon.ndex %>
+    		<%= image_tag("pokemon/#{pokemon.ndex}.png", alt: "pokemon") %>
+  		<% end %>
+		<p> Pokemon name : <%= pokemon.name %> </p>
+		<p> Pokemon level: <%= pokemon.level %></p>
+		<p> Pokemon health : <%= pokemon.health %></p>
+		 		
+	<% else %>
+
+
+<% end %><% end %>
